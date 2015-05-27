@@ -1,14 +1,20 @@
+<html>
 <body>
 
 <script src="./src/Thermostat.js"></script>
+<script src="./src/Helpers.js"></script>
+<button type="button" onclick="thermostat.updateUp()">Up</button>
+<button type="button" onclick="thermostat.updateDown()">Down</button>
+<button type="button" onclick="thermostat.updateReset()">Reset</button>
 
-<h1>Thermostat</h1>
 
-<script type="text/javascript">
-thermostat = new Thermostat
-</script>
 
-<script>thermostat.temp</script>
-<button type="button" onclick="upp()">Up</button>
+
+
+<div id="temp">
+20
+</div>
 
 </body>
+
+</html>

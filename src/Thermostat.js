@@ -43,4 +43,6 @@ Thermostat.prototype.down = function() {
   }
 };
 
+thermostat = new Thermostat
+
 
